@@ -1,0 +1,12 @@
+c:\users\moren\onedrive\documentos\visual studio 2015\Projects\ProyectoL3Fiesta\Fiestas\bin\Debug\Fiestas.exe.config
+c:\users\moren\onedrive\documentos\visual studio 2015\Projects\ProyectoL3Fiesta\Fiestas\bin\Debug\Fiestas.exe
+c:\users\moren\onedrive\documentos\visual studio 2015\Projects\ProyectoL3Fiesta\Fiestas\bin\Debug\Fiestas.pdb
+c:\users\moren\onedrive\documentos\visual studio 2015\Projects\ProyectoL3Fiesta\Fiestas\obj\Debug\Fiestas.csprojResolveAssemblyReference.cache
+c:\users\moren\onedrive\documentos\visual studio 2015\Projects\ProyectoL3Fiesta\Fiestas\obj\Debug\Fiestas.FormLogin.resources
+c:\users\moren\onedrive\documentos\visual studio 2015\Projects\ProyectoL3Fiesta\Fiestas\obj\Debug\Fiestas.FormMenu.resources
+c:\users\moren\onedrive\documentos\visual studio 2015\Projects\ProyectoL3Fiesta\Fiestas\obj\Debug\Fiestas.Properties.Resources.resources
+c:\users\moren\onedrive\documentos\visual studio 2015\Projects\ProyectoL3Fiesta\Fiestas\obj\Debug\Fiestas.csproj.GenerateResource.Cache
+c:\users\moren\onedrive\documentos\visual studio 2015\Projects\ProyectoL3Fiesta\Fiestas\obj\Debug\Fiestas.exe
+c:\users\moren\onedrive\documentos\visual studio 2015\Projects\ProyectoL3Fiesta\Fiestas\obj\Debug\Fiestas.pdb
+c:\users\moren\onedrive\documentos\visual studio 2015\Projects\ProyectoL3Fiesta\Fiestas\obj\Debug\Fiestas.FormBienvenida.resources
+c:\users\moren\onedrive\documentos\visual studio 2015\Projects\ProyectoL3Fiesta\Fiestas\obj\Debug\Fiestas.FormGaleria.resources

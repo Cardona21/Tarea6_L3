@@ -1,0 +1,69 @@
+c:\users\moren\onedrive\documentos\visual studio 2015\Projects\ProyectoL3Fiesta\BL_Fiestas\obj\Debug\BL_Fiestas.csprojResolveAssemblyReference.cache
+c:\users\moren\onedrive\documentos\visual studio 2015\Projects\ProyectoL3Fiesta\BL_Fiestas\bin\Debug\BL_Fiestas.dll
+c:\users\moren\onedrive\documentos\visual studio 2015\Projects\ProyectoL3Fiesta\BL_Fiestas\bin\Debug\BL_Fiestas.pdb
+c:\users\moren\onedrive\documentos\visual studio 2015\Projects\ProyectoL3Fiesta\BL_Fiestas\obj\Debug\BL_Fiestas.dll
+c:\users\moren\onedrive\documentos\visual studio 2015\Projects\ProyectoL3Fiesta\BL_Fiestas\obj\Debug\BL_Fiestas.pdb
+c:\users\moren\onedrive\documentos\visual studio 2015\Projects\ProyectoL3Fiesta\BL_Fiestas\obj\Debug\BL_Fiestas.FormContrato.resources
+c:\users\moren\onedrive\documentos\visual studio 2015\Projects\ProyectoL3Fiesta\BL_Fiestas\obj\Debug\BL_Fiestas.FormPolitica.resources
+c:\users\moren\onedrive\documentos\visual studio 2015\Projects\ProyectoL3Fiesta\BL_Fiestas\obj\Debug\BL_Fiestas.ReporteReservas.resources
+c:\users\moren\onedrive\documentos\visual studio 2015\Projects\ProyectoL3Fiesta\BL_Fiestas\obj\Debug\BL_Fiestas.csproj.GenerateResource.Cache
+C:\Users\moren\OneDrive\Escritorio\tarea2-master\BL_Fiestas\bin\Debug\BL_Fiestas.dll.config
+C:\Users\moren\OneDrive\Escritorio\tarea2-master\BL_Fiestas\bin\Debug\BL_Fiestas.dll
+C:\Users\moren\OneDrive\Escritorio\tarea2-master\BL_Fiestas\bin\Debug\BL_Fiestas.pdb
+C:\Users\moren\OneDrive\Escritorio\tarea2-master\BL_Fiestas\bin\Debug\EntityFramework.dll
+C:\Users\moren\OneDrive\Escritorio\tarea2-master\BL_Fiestas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\moren\OneDrive\Escritorio\tarea2-master\BL_Fiestas\bin\Debug\EntityFramework.xml
+C:\Users\moren\OneDrive\Escritorio\tarea2-master\BL_Fiestas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\moren\OneDrive\Escritorio\tarea2-master\BL_Fiestas\obj\Debug\BL_Fiestas.csprojResolveAssemblyReference.cache
+C:\Users\moren\OneDrive\Escritorio\tarea2-master\BL_Fiestas\obj\Debug\BL_Fiestas.dll
+C:\Users\moren\OneDrive\Escritorio\tarea2-master\BL_Fiestas\obj\Debug\BL_Fiestas.pdb
+C:\tarea2-master\BL_Fiestas\bin\Debug\BL_Fiestas.dll.config
+C:\tarea2-master\BL_Fiestas\bin\Debug\BL_Fiestas.dll
+C:\tarea2-master\BL_Fiestas\bin\Debug\BL_Fiestas.pdb
+C:\tarea2-master\BL_Fiestas\bin\Debug\EntityFramework.dll
+C:\tarea2-master\BL_Fiestas\bin\Debug\EntityFramework.SqlServer.dll
+C:\tarea2-master\BL_Fiestas\bin\Debug\EntityFramework.xml
+C:\tarea2-master\BL_Fiestas\bin\Debug\EntityFramework.SqlServer.xml
+C:\tarea2-master\BL_Fiestas\obj\Debug\BL_Fiestas.csprojResolveAssemblyReference.cache
+C:\tarea2-master\BL_Fiestas\obj\Debug\BL_Fiestas.dll
+C:\tarea2-master\BL_Fiestas\obj\Debug\BL_Fiestas.pdb
+C:\Users\moren\OneDrive\Escritorio\tarea4-master\BL_Fiestas\bin\Debug\BL_Fiestas.dll.config
+C:\Users\moren\OneDrive\Escritorio\tarea4-master\BL_Fiestas\bin\Debug\BL_Fiestas.dll
+C:\Users\moren\OneDrive\Escritorio\tarea4-master\BL_Fiestas\bin\Debug\BL_Fiestas.pdb
+C:\Users\moren\OneDrive\Escritorio\tarea4-master\BL_Fiestas\bin\Debug\EntityFramework.dll
+C:\Users\moren\OneDrive\Escritorio\tarea4-master\BL_Fiestas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\moren\OneDrive\Escritorio\tarea4-master\BL_Fiestas\bin\Debug\EntityFramework.xml
+C:\Users\moren\OneDrive\Escritorio\tarea4-master\BL_Fiestas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\moren\OneDrive\Escritorio\tarea4-master\BL_Fiestas\obj\Debug\BL_Fiestas.csprojResolveAssemblyReference.cache
+C:\Users\moren\OneDrive\Escritorio\tarea4-master\BL_Fiestas\obj\Debug\BL_Fiestas.dll
+C:\Users\moren\OneDrive\Escritorio\tarea4-master\BL_Fiestas\obj\Debug\BL_Fiestas.pdb
+C:\Users\moren\OneDrive\Escritorio\tarea4-L3\BL_Fiestas\bin\Debug\BL_Fiestas.dll.config
+C:\Users\moren\OneDrive\Escritorio\tarea4-L3\BL_Fiestas\bin\Debug\BL_Fiestas.dll
+C:\Users\moren\OneDrive\Escritorio\tarea4-L3\BL_Fiestas\bin\Debug\BL_Fiestas.pdb
+C:\Users\moren\OneDrive\Escritorio\tarea4-L3\BL_Fiestas\bin\Debug\EntityFramework.dll
+C:\Users\moren\OneDrive\Escritorio\tarea4-L3\BL_Fiestas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\moren\OneDrive\Escritorio\tarea4-L3\BL_Fiestas\bin\Debug\EntityFramework.xml
+C:\Users\moren\OneDrive\Escritorio\tarea4-L3\BL_Fiestas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\moren\OneDrive\Escritorio\tarea4-L3\BL_Fiestas\obj\Debug\BL_Fiestas.csprojResolveAssemblyReference.cache
+C:\Users\moren\OneDrive\Escritorio\tarea4-L3\BL_Fiestas\obj\Debug\BL_Fiestas.dll
+C:\Users\moren\OneDrive\Escritorio\tarea4-L3\BL_Fiestas\obj\Debug\BL_Fiestas.pdb
+C:\Users\lab.infovs\Desktop\tarea5-master\tarea5-master\BL_Fiestas\bin\Debug\BL_Fiestas.dll.config
+C:\Users\lab.infovs\Desktop\tarea5-master\tarea5-master\BL_Fiestas\bin\Debug\BL_Fiestas.dll
+C:\Users\lab.infovs\Desktop\tarea5-master\tarea5-master\BL_Fiestas\bin\Debug\BL_Fiestas.pdb
+C:\Users\lab.infovs\Desktop\tarea5-master\tarea5-master\BL_Fiestas\bin\Debug\EntityFramework.dll
+C:\Users\lab.infovs\Desktop\tarea5-master\tarea5-master\BL_Fiestas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lab.infovs\Desktop\tarea5-master\tarea5-master\BL_Fiestas\bin\Debug\EntityFramework.xml
+C:\Users\lab.infovs\Desktop\tarea5-master\tarea5-master\BL_Fiestas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lab.infovs\Desktop\tarea5-master\tarea5-master\BL_Fiestas\obj\Debug\BL_Fiestas.csprojResolveAssemblyReference.cache
+C:\Users\lab.infovs\Desktop\tarea5-master\tarea5-master\BL_Fiestas\obj\Debug\BL_Fiestas.dll
+C:\Users\lab.infovs\Desktop\tarea5-master\tarea5-master\BL_Fiestas\obj\Debug\BL_Fiestas.pdb
+C:\Users\moren\OneDrive\Escritorio\tarea5-master\tarea5-master\BL_Fiestas\bin\Debug\BL_Fiestas.dll.config
+C:\Users\moren\OneDrive\Escritorio\tarea5-master\tarea5-master\BL_Fiestas\bin\Debug\BL_Fiestas.dll
+C:\Users\moren\OneDrive\Escritorio\tarea5-master\tarea5-master\BL_Fiestas\bin\Debug\BL_Fiestas.pdb
+C:\Users\moren\OneDrive\Escritorio\tarea5-master\tarea5-master\BL_Fiestas\bin\Debug\EntityFramework.dll
+C:\Users\moren\OneDrive\Escritorio\tarea5-master\tarea5-master\BL_Fiestas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\moren\OneDrive\Escritorio\tarea5-master\tarea5-master\BL_Fiestas\bin\Debug\EntityFramework.xml
+C:\Users\moren\OneDrive\Escritorio\tarea5-master\tarea5-master\BL_Fiestas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\moren\OneDrive\Escritorio\tarea5-master\tarea5-master\BL_Fiestas\obj\Debug\BL_Fiestas.csprojResolveAssemblyReference.cache
+C:\Users\moren\OneDrive\Escritorio\tarea5-master\tarea5-master\BL_Fiestas\obj\Debug\BL_Fiestas.dll
+C:\Users\moren\OneDrive\Escritorio\tarea5-master\tarea5-master\BL_Fiestas\obj\Debug\BL_Fiestas.pdb

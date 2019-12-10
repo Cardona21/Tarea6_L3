@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9D6B1FFD-22A3-44DD-B0F6-4130C98F2E29}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fiestas</RootNamespace>
+    <AssemblyName>Fiestas</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>9BED52D3F6D0A05A40C005FE52EA74149C5D57E0</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Win.Fiestas_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes.Designer.cs">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contrato.Designer.cs">
+      <DependentUpon>Contrato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FormBienvenida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBienvenida.Designer.cs">
+      <DependentUpon>FormBienvenida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFactura.Designer.cs">
+      <DependentUpon>FormFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGaleria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGaleria.Designer.cs">
+      <DependentUpon>FormGaleria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReporteFactura.Designer.cs">
+      <DependentUpon>FormReporteFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUsuario.Designer.cs">
+      <DependentUpon>FormUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario.Designer.cs">
+      <DependentUpon>Inventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FromReporteInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FromReporteInventario.Designer.cs">
+      <DependentUpon>FromReporteInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Politicas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Politicas.Designer.cs">
+      <DependentUpon>Politicas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReporteCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteCliente.Designer.cs">
+      <DependentUpon>ReporteCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteFactura.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporteFactura.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteInventario.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporteInventario.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteReservas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteReservas.Designer.cs">
+      <DependentUpon>ReporteReservas.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Clientes.resx">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrato.resx">
+      <DependentUpon>Contrato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBienvenida.resx">
+      <DependentUpon>FormBienvenida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFactura.resx">
+      <DependentUpon>FormFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGaleria.resx">
+      <DependentUpon>FormGaleria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReporteFactura.resx">
+      <DependentUpon>FormReporteFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUsuario.resx">
+      <DependentUpon>FormUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario.resx">
+      <DependentUpon>Inventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FromReporteInventario.resx">
+      <DependentUpon>FromReporteInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Politicas.resx">
+      <DependentUpon>Politicas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ReporteCliente.resx">
+      <DependentUpon>ReporteCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteFactura.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteFactura.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteInventario.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteInventario.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteReservas.resx">
+      <DependentUpon>ReporteReservas.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataSet.xsc">
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet.xss">
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\BL_Fiestas.CategoriaBL.datasource" />
+    <None Include="Properties\DataSources\BL_Fiestas.ClientesBL.datasource" />
+    <None Include="Properties\DataSources\BL_Fiestas.FacturaBL.datasource" />
+    <None Include="Properties\DataSources\BL_Fiestas.Reserva.datasource" />
+    <None Include="Properties\DataSources\BL_Fiestas.ReservaBL.datasource" />
+    <None Include="Properties\DataSources\BL_Fiestas.Reservar.datasource" />
+    <None Include="Properties\DataSources\BL_Fiestas.SeguridadBL.datasource" />
+    <None Include="Properties\DataSources\BL_Fiestas.TipoBL.datasource" />
+    <None Include="Properties\DataSources\BL_Fiestas.Usuario.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Win.Fiestas_ClaveTemporal.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9daa5318-b9ee-411c-b600-3efeb45c5b69.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_5002-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1476012327.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\birthday-celebration-background-birthday-balloon-wallpaper-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\77240085-rosa-púrpura-cumpleaños-de-fondo-con-globos-y-brillante.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9daa5318-b9ee-411c-b600-3efeb45c5b691.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fiestas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BL_Fiestas\BL_Fiestas.csproj">
+      <Project>{03ca2e23-beb5-4b9b-b6c3-842934fecdda}</Project>
+      <Name>BL_Fiestas</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3f4b5de1e6ac0893a90abfbb49ee3863.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8-bases-de-pastel-boda-fiesta-cumpleanos-platinumcakeware-D_NQ_NP_640565-MLM29205018583_012019-Q.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9f648ce8c557afabf750be68e1802439.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\26b9c27fa9b0debf2b56d1a27ebedf58.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9daa5318-b9ee-411c-b600-3efeb45c5b692.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\80db921ea4916df0d2a6d9a46fe30cdc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\81KMYsw7uBL._SL1500_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\415eZwjq9IL.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1462235eb16a207fbe59b53e4682af0a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2311452340.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a00db3418d3322c8cdf9292fa6f80841.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A010405_010405.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alquilar-Disco-Movil-4000.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arreglos-florales-para-una-fiesta-de-16-anos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alquilar-sonido-y-luz-party.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BRLioKNCEAAyoCf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cfb_206105.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Consejos-menú-boda-optimizada-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comidas-sanas-menu-saludable-boda-original-ideas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e555250b66dac6077e5719e3b192444e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mantel-rojo-casaymantel-ideas-decoracion-mesa-mantelerias.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagenes-de-arreglos-florales-para-fiestas-5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fiesta-hawaiana.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NOZZEcentrotavola-2-435x288.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\torta-chanel-compressor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_5038-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\96125365-collection-of-pink-birthday-party-objects-in-a-gift-box.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fiestas1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\77240085-rosa-púrpura-cumpleaños-de-fondo-con-globos-y-brillante1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumb2-happy-birthday-bengal-lights-cake-birthday-cake-cupcake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\birthday-celebration-background-birthday-balloon-wallpaper-vector1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11780392-globos-para-cumpleaños-o-una-tarjeta-del-partido.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7Irz5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tela-rico-confeti-fondo-blanco-jersey-por-10-cm-bajo-medida-l.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fiesta_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9daa5318-b9ee-411c-b600-3efeb45c5b693.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confeti-dorado-sobre-fondo-negro_45843-282.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tela-rico-confeti-fondo-blanco-jersey-por-10-cm-bajo-medida-l1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
